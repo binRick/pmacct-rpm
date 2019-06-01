@@ -20,7 +20,7 @@ pmacct is a small set of multi-purpose passive network monitoring tools
 
 %build
 ./autogen.sh
-%configure --enable-sqlite3 --enable-jansson --enable-mysql
+%configure --enable-sqlite3 --enable-jansson --enable-mysql --enable-geoipv2
 make %{?_smp_mflags}
 
 %install
