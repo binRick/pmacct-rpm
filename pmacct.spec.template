@@ -1,5 +1,5 @@
 Name:           pmacct
-Version:        1.7.2
+Version:        __RELEASE_VERSION__
 Release:        1%{?dist}
 Summary:        passive network monitoring
 
